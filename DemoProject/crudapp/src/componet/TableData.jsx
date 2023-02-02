@@ -40,7 +40,6 @@ function TableData() {
             }
         });
         dispatch(EditData(updateData))
-
     }
 
     return (
@@ -52,7 +51,6 @@ function TableData() {
                             <label className="form-label">Enter Your Name</label>
                             <input type="text" className="form-control" id="InputName" name="Name" value={state.Name || ""} onChange={(e) => handleChange(e)} />
                         </div>
-
                         <div className="mb-3">
                             <label className="form-label">Enter Your EmailAddress</label>
                             <input type="text" className="form-control" id="InputEmail" name="Email" value={state.Email || ""} onChange={(e) => handleChange(e)} />
